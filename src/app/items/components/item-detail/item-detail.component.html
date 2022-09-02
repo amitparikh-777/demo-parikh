@@ -1,0 +1,10 @@
+<mat-card class="item-card col-md-3 col-sm-6">
+    <mat-card-title>{{item.title}}</mat-card-title>
+    <mat-card-content class="item-card-content">
+        <img src="{{ item.thumbnailUrl }}" alt="" *ngIf="index < 10" height="150" width="150">
+        <img src="{{ item.thumbnailUrl }}" alt="" loading="lazy" *ngIf="index >= 10" height="150" width="150">
+    </mat-card-content>
+    <mat-card-actions class="item-card-actions">
+        <button mat-raised-button color="primary">View Details</button>
+    </mat-card-actions>
+</mat-card>

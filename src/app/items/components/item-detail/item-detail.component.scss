@@ -1,0 +1,21 @@
+$tile-background-color: rgba(211, 211, 211, .5);
+$card-width: 17rem;
+
+.item {
+    &-card {
+        margin: 1rem;
+        width: $card-width;
+        background-color: $tile-background-color;
+    }
+
+    &-card-content {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    &-card-actions {
+        display: flex;
+        justify-content: center;
+    }
+}

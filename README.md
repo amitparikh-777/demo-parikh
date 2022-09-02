@@ -2,7 +2,7 @@
 
 Author: Amit Parikh
 
-This project create for the purposed of demoing api integration, reusable components, lazy loaded images, material components, unit testing.
+This project is was created for the purposes of demoing api integration, reusable components, lazy loading images, material components, unit testing.
 
 ## Development server
 
@@ -11,7 +11,7 @@ Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The appl
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.=
 
 ## Running unit tests
 

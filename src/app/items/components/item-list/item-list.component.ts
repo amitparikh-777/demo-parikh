@@ -14,20 +14,15 @@ export class ItemListComponent implements OnInit {
   public items$: Observable<Item[]>;
   // private itemsMap = new Map<number, Item>();
 
-  constructor(private itemsService: ItemsService) {}
+  constructor(private itemsService: ItemsService) { }
 
   ngOnInit() {
-    // this.prepareItems();
-    this.items$ = this.itemsService.getItems();
+    this.prepareItems();
   }
 
-  // prepareItems() {
-      // .pipe(take(1))
-      // .subscribe((items: Item[]) => {
-      //   this.itemsList = items;
-      //   // this.storeItems(items);
-      // });
-  // }
+  prepareItems() {
+    this.items$ = this.itemsService.getItems();
+  }
 
   // Storage could be used to display a detail of an item
   // storeItems(items: Item[]): void {
